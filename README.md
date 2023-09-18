@@ -3,5 +3,5 @@
   <img src="">
 </div>
 <div align="center">
-  >" Empowering Farmers, Nurturing Futures: FARMISTAR - Your Partner in Modern Agriculture. "
+  > " Empowering Farmers, Nurturing Futures: FARMISTAR - Your Partner in Modern Agriculture. "
 </div>

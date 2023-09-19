@@ -5,7 +5,7 @@
 <div align="center">
   
   >" Empowering Farmers, Nurturing Futures: FARMISTAR - Your Partner in Modern Agriculture. "
-  
+
 </div>
 
 ## Contents 
@@ -45,14 +45,27 @@ Our technology solution, FARMISTAR addresses critical sustainability challenges 
 
 ### Our Idea : Revolutionizing Agriculture with FARMISTAR <a name="our-idea"></a>
 
-FARMISTAR is a comprehensive, technology-driven platform that integrates seamlessly with Salesforce's Experience Cloud and Sales Cloud that empowers farmers by leveraging AI and weather data to optimize crop yield and recommend sustainable farming practices, reducing resource waste and enhancing resilience to climate change. It is a game-changing solution designed to facilitates fair trade through its marketplace, providing a platform for farmers to sell their produce, and streamlines issue resolution for improved communication and support within the agricultural community. Ultimately, FARMISTAR cater to the multifaceted needs of farmers, providing them with a suite of tools and resources to navigate the complexities of modern agriculture sustainably. 
+FARMISTAR is a comprehensive, technology-driven platform that integrates seamlessly with Salesforce's Experience Cloud and Sales Cloud empowering farmers by leveraging AI and weather data to optimize crop yield and recommend sustainable farming practices, reducing resource waste and enhancing resilience to climate change. It is a game-changing solution designed to facilitates fair trade through its marketplace, providing a platform for farmers to sell their produce, and streamlines issue resolution for improved communication and support within the agricultural community. Ultimately, FARMISTAR cater to the multifaceted needs of farmers, providing them with a suite of tools and resources to navigate the complexities of modern agriculture sustainably. 
 
 Here's a detailed look at how FARMISTAR tackles these challenges:
 
+  **1.	Weather-Based Decision-Making :** FARMISTAR employs geolocation to provide farmers with real-time weather information. This data is crucial for making informed decisions about planting, harvesting, and resource allocation. However, what sets FARMISTAR apart is its integration with IBM Watson Studio's IBM Auto AI & Watson ML, which predicts rain possibilities based on weather parameters. This predictive capability empowers farmers to plan their activities more effectively and mitigate risks associated with adverse weather conditions.
+  
+  **2.	Crop Management and Recommendations:** FARMISTAR goes beyond weather updates. It utilizes IBM Watson Studio's IBM Auto AI & Watson ML instances to calculate crop yield predictions, recommend the best-suited crops for specific conditions, and provide guidance on the optimal use of fertilizers. This AI-driven approach optimizes resource utilization, reduces waste, and promotes sustainable farming practices, all of which are crucial for the long-term health of our planet.
+  
+  **3.	Marketplace for Fair Trade:** FARMISTAR offers a marketplace where farmers can list their produce and access a wide range of necessary farming items. What distinguishes this marketplace is its commitment to fair trade. We ensure that farmers receive competitive prices for their crops, enabling them to secure a sustainable source of income. Moreover, FARMISTAR manages the entire handling process, making it hassle-free for farmers.
+  
+  **4.	Efficient Order Management:** The platform streamlines order management by integrating order confirmation via email and SMS, complete with unique order tracking IDs. Farmers can easily track their orders, access order details such as total price and order placement date, and monitor the status of their requests. This transparent system fosters trust and efficient communication between farmers and suppliers.
+  
+  **5.	Crop Trends and Pricing:** FARMISTAR provides an up-to-date display of current crop trends and pricing per quintal. This information equips farmers with insights into market dynamics, helping them make informed decisions about crop selection and timing of sales.
+  
+  **6.	Web-to-Case Support:** The "Contact Us" section of FARMISTAR enables farmers to lodge complaints or inquiries seamlessly. These submissions are transformed into Web-to-Case records within Salesforce, facilitating efficient issue resolution and enhancing customer service. Custom "Case Requested" emails are automatically sent upon the creation of a case, ensuring timely acknowledgment and follow-up.
+  
+  **7.	Dashboard Insights:** In Salesforce Sales Cloud, FARMISTAR's dashboard visualizes essential reports, including the number of open cases, orders based on products, total crop selling requests, order status breakdown, and orders sorted by farmers and quantity. This data-driven approach provides farmers and stakeholders with valuable insights into their operations.
 
 
 
-  <h2 align="center"> Technology Implementation <a name="technology-implementation"></a> </h2>
+<h2 align="center"> Technology Implementation <a name="technology-implementation"></a> </h2>
   
 ### IBM AI Service(s) used <a name="ibm-ai-service"></a>
 

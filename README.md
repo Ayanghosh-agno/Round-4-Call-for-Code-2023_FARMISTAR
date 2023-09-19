@@ -55,7 +55,7 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
   
   **3.	Marketplace for Fair Trade:** FARMISTAR offers a marketplace where farmers can list their produce and access a wide range of necessary farming items. What distinguishes this marketplace is its commitment to fair trade. We ensure that farmers receive competitive prices for their crops, enabling them to secure a sustainable source of income. Moreover, FARMISTAR manages the entire handling process, making it hassle-free for farmers.
   
-  **4.	Efficient Order Management:** The platform streamlines order management by integrating order confirmation via email and SMS, complete with unique order tracking IDs. Farmers can easily track their orders, access order details such as total price and order placement date, and monitor the status of their requests. This transparent system fosters trust and efficient communication between farmers and suppliers.
+  **4.	Efficient Order Management:** The platform streamlines order management by integrating order confirmation via email and SMS, complete with unique order tracking IDs. Farmers can easily track their orders, access order details such as total price and order placement date, and monitor the status of their requests.Integration under the Salesforce Sales Cloud, make it more easy to efficiently manage orders and data for seamless experience of the Farmers. This transparent system fosters trust and efficient communication between farmers and suppliers.
   
   **5.	Crop Trends and Pricing:** FARMISTAR provides an up-to-date display of current crop trends and pricing per quintal. This information equips farmers with insights into market dynamics, helping them make informed decisions about crop selection and timing of sales.
   
@@ -63,7 +63,7 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
   
   **7.	Dashboard Insights:** In Salesforce Sales Cloud, FARMISTAR's dashboard visualizes essential reports, including the number of open cases, orders based on products, total crop selling requests, order status breakdown, and orders sorted by farmers and quantity. This data-driven approach provides farmers and stakeholders with valuable insights into their operations.
 
-
+**8.	AI-Powered Chatbot and Multilingual Support:** FARMISTAR introduces a chatbot integrated IBM Watson Assistance and Watsonx.Ai for addressing farmers' queries. It's accessible through WhatsApp and an IVR support connect number that employs Text-to-Speech and Speech-to-Text APIs. Additionally, the platform also offers a language selection feature that uses IBM Language Translator, allowing users to choose their preferred language for a more inclusive experience.
 
 <h2 align="center"> Technology Implementation <a name="technology-implementation"></a> </h2>
   

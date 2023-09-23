@@ -1,35 +1,34 @@
-<a name="project-name"> FAMISTAR </a>
-<div align="center">
-  <img src="">
-</div>
+[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Community](https://img.shields.io/badge/Join-Community-blue)](https://developer.ibm.com/callforcode/solutions/projects/get-started/)
+<h1 align="center"<a name="title"></a>FARMISTAR</h1>
 <div align="center">
   
   >" Empowering Farmers, Nurturing Futures: FARMISTAR - Your Partner in Modern Agriculture. "
 
 </div>
+<h1 align="center"</a></h1>
 
-## Contents 
-- [FARMISTAR](#project-name)
-  01. [Project Summary](#Project-summary)
+  - [Project Summary](#Project-summary)
       - [The issue we are hoping to solve](#issue-we-are-solving)
       - [How our technology solution can help](#technology-Solution)
       - [Our Idea](#our-idea)
   
-  02. [Technology Implementation](#technology-implementation)
+  - [Technology Implementation](#technology-implementation)
       - [IBM AI Service(s) used](#ibm-ai-service)
       - [Other IBM technology used](#other-ibm-tech)
       - [Solution Architecture](#solution-architecture)
      
-  03. [Presentation materials](#presentation-materials)
+  - [Presentation materials](#presentation-materials)
       - [Solution Demo Video](#solution-demo-video)
       - [Project development roadmap](#project-development-roadmap)
      
-  04. [Additional Details](#presentation-materials)
+  - [Additional Details](#presentation-materials)
       - [How to run the project](#run-the-project)
       - [Live Demo](#Live-Demo)
             
-  05. [Authors](#Authors)     
-
+  - [About](#about)
+      - [Authors](#Authors)
+      - [License](#license)
+      - [Acknowledgments](#acknowledgments)
 <h2 align="center"> Project Summary <a name="Project-summary"></a> </h2>
   
 ### The Issue we are hoping to solve <a name="issue-we-are-solving"></a>
@@ -91,3 +90,16 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
 4.	When users make purchases from the marketplace, FARMISTAR promptly confirms their orders via SMS using the NEXMO messaging API, skillfully orchestrated through Apex.
 5.	To enhance user experience, the platform offers users the choice to select their preferred language for the platform's interface, which is done by WATSON LANGUAGE TRANSLATOR thought the api calls from apex.
 6.	All this invaluable information is securely stored within Salesforce, and users can access insights and analytics through meticulously designed REPORTS & DASHBOARDS.
+
+<h2 align="center"> About <a name="about"></a> </h2>
+
+### Authors<a name="Authors"></a>
+* Ayan Ghosh
+
+### License<a name="license"></a>
+This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
+
+### Acknowledgments<a name="acknowledgments"></a>
+
+- Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
+

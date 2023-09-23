@@ -21,7 +21,7 @@
       - [Solution Demo Video](#solution-demo-video)
       - [Project development roadmap](#project-development-roadmap)
      
-  - [Additional Details](#presentation-materials)
+  - [Additional Details](#additional-details)
       - [How to run the project](#run-the-project)
       - [Live Demo](#Live-Demo)
             
@@ -90,6 +90,25 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
 4.	When users make purchases from the marketplace, FARMISTAR promptly confirms their orders via SMS using the NEXMO messaging API, skillfully orchestrated through Apex.
 5.	To enhance user experience, the platform offers users the choice to select their preferred language for the platform's interface, which is done by WATSON LANGUAGE TRANSLATOR thought the api calls from apex.
 6.	All this invaluable information is securely stored within Salesforce, and users can access insights and analytics through meticulously designed REPORTS & DASHBOARDS.
+
+
+<h2 align="center"> Presentation materials <a name="presentation-materials"></a> </h2>
+
+### Solution Demo Video <a name="solution-demo-video"></a>
+
+
+
+### Project Development Roadmap <a name="project-development-roadmap"></a>
+
+
+
+<h2 align="center"> Additional Details <a name="additional-details"></a> </h2>
+
+### How to run the project <a name="run-the-project"></a>
+
+
+### Live Demo <a name="Live-Demo"></a>
+
 
 <h2 align="center"> About <a name="about"></a> </h2>
 

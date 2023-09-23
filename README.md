@@ -71,14 +71,13 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
   
 ### IBM AI Service(s) used <a name="ibm-ai-service"></a>
 
-- [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant)
-- [Watson Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text)
-- [Watson Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech)
-- [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio)
-- [Language Translator](https://cloud.ibm.com/catalog/services/language-translator)
+- [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) -> Watson Assistant is integrated into FARMISTAR as a chatbot accessible through Website, WhatsApp and an IVR system, providing farmers with instant agricultural guidance and support via both text and voice interactions.
+- [Watson Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) -> Watson Speech to Text is employed in FARMISTAR's IVR system to convert spoken commands into text, enabling voice-based interactions with the Watson Assistant.
+- [Watson Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) -> Watson Text to Speech is employed in the IVR system to convert text-based responses from Watson Assistant into spoken language, facilitating voice interactions with users.
+- [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio) -> Watson Studio is employed in FARMISTAR to facilitate data analysis and machine learning tasks with the Help of IBM AUTO AI & ML Instances. Which is used to process and analyze agricultural data, weather patterns, and market trends, providing valuable insights for crop management, yield predictions, and pricing recommendations, among other applications.
+- [Language Translator](https://cloud.ibm.com/catalog/services/language-translator) -> The Language Translator is integrated in FARMISTAR to allowing users to choose their preferred language, ensuring a more inclusive and accessible user experience.
 
 ### Other IBM technology used <a name="other-ibm-tech"></a>
 
-- [Watsonx ai](https://cloud.ibm.com/watsonx/overview)
-
+- [Watsonx ai](https://cloud.ibm.com/watsonx/overview) --> Watsonx.ai is integrated into Watson Assistant to enhance the chatbot's capabilities of FARMISTAR. It is used to provide advanced generative AI capabilities, improving the quality of responses and expanding the chatbot's ability to answer a wide range of user queries accurately and informatively.
 ### Solution Architecture <a name="solution-architecture"></a>

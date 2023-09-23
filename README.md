@@ -82,12 +82,12 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
 - [Watsonx ai](https://cloud.ibm.com/watsonx/overview) --> Watsonx.ai is integrated into Watson Assistant to enhance the chatbot's capabilities of FARMISTAR. It is used to provide advanced generative AI capabilities, improving the quality of responses and expanding the chatbot's ability to answer a wide range of user queries accurately and informatively.
 ### Solution Architecture <a name="solution-architecture"></a>
 
-1.	FARMISTAR stores comprehensive information, including product listings and weather data, within Salesforce objects. Weather data retrieved through APEX is seamlessly presented on the portal using Lightning Web Components (LWC).
-2.	The platform initiates with displaying rain predictions on the HOME page by fetching data from OpenWeatherAPI, or any other predictions as opt by the user like Crop Yield, Fertilizer Prediction, and Crop Prediction. Subsequently, it forwards this data to Watson Studio (IBM AUTO AI, ML instance) for rainfall predictions via API requests initiated from Apex. These forecasts are then exhibited using LWC.
-3.	Chatbot Interaction Channels:-
-  - i)	Web – User initiate the chat in the Watson Assistant , this Watson assistant is connected with Watsonx.ai through extension.
-  - ii)	Whatsapp- We can also initiate our chatbot through whatsapp using Twilio and Watson Assistant’s Web chat channel.
-  - iii)	Call- We can even initiate our chatbot though Twilio Phone no. and using Watson Assistant’s Call channel and with the use of Watson Text to Speech & Watson Speech to Text         for the two way communication of Watson assistant and User call.
+1.	FARMISTAR stores comprehensive information, including product listings and farmer's data, within Salesforce objects. Weather data retrieved using OpenWeather API through APEX is seamlessly presented on the portal using Lightning Web Components (LWC).
+2.	The platform initiates with displaying rain predictions on the HOME page by fetching data from OpenWeatherAPI, any other predictions as opt by the user like Crop Yield, Fertilizer Prediction and Crop Prediction is subsequently forwarded to Watson Studio (IBM AUTO AI, ML instance) for rainfall predictions via API requests initiated from Apex. These predictions are then exhibited using LWC.
+3.	FARMISTAR's chatbot interactions are designed for user convenience and accessibility, with three distinct channels:-
+  - i)	Web – User initiate the chat in the Watson Assistant which is further connected with Watsonx.ai through extension.
+  - ii)	Whatsapp- Chatbot interactions are extended to WhatsApp through Twilio and Watson Assistant's Web chat channel.
+  - iii)	Call- Users can also initiate chatbot interactions through IVR made using Twilio phone number, leveraging Watson Assistant's Call channel, further connected with WATSONX using extension. Watson Text to Speech and Watson Speech to Text facilitate seamless two-way communication during these calls,
 4.	When users make purchases from the marketplace, FARMISTAR promptly confirms their orders via SMS using the NEXMO messaging API, skillfully orchestrated through Apex.
-5.	To enhance user experience, the platform offers users the choice to select their preferred language for the platform's interface, all underpinned by the robust WATSON LANGUAGE TRANSLATOR.
+5.	To enhance user experience, the platform offers users the choice to select their preferred language for the platform's interface, which is done by WATSON LANGUAGE TRANSLATOR thought the api calls from apex.
 6.	All this invaluable information is securely stored within Salesforce, and users can access insights and analytics through meticulously designed REPORTS & DASHBOARDS.

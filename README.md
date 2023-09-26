@@ -79,7 +79,7 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
 
 ### Other IBM technology used <a name="other-ibm-tech"></a>
 
-- [Watsonx ai](https://cloud.ibm.com/watsonx/overview) --> Watsonx.ai is integrated into Watson Assistant to enhance the chatbot's capabilities of FARMISTAR. It is used to provide advanced generative AI capabilities, improving the quality of responses and expanding the chatbot's ability to answer a wide range of user queries accurately and informatively.
+- [Watsonx ai](https://cloud.ibm.com/watsonx/overview) --> Watsonx.ai is integrated into Watson Assistant to enhance the chatbot's capabilities of FARMISTAR. It is used to provide advanced generative AI capabilities, improving the quality of responses and expanding the chatbot's ability to answer a wide range of user queries accurately and informatively either through our poral, Whatsapp or through IVR.
 ### Solution Architecture <a name="solution-architecture"></a>
 
 1.	FARMISTAR stores comprehensive information, including product listings and farmer's data, within Salesforce objects. Weather data retrieved using OpenWeather API through APEX is seamlessly presented on the portal using Lightning Web Components (LWC).

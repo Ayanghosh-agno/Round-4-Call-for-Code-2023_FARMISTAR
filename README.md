@@ -7,7 +7,7 @@
 </div>
 <h1 align="center"</a></h1>
 
-  - [Project Summary](#Project-summary)
+  - [Project Summary](#project-summary)
       - [The issue we are hoping to solve](#issue-we-are-solving)
       - [How our technology solution can help](#technology-Solution)
       - [Our Idea](#our-idea)
@@ -29,7 +29,7 @@
       - [Authors](#Authors)
       - [License](#license)
       - [Acknowledgments](#acknowledgments)
-<h2 align="center"> Project Summary <a name="Project-summary"></a> </h2>
+<h2 align="center"> Project Summary <a name="project-summary"></a> </h2>
   
 ### The Issue we are hoping to solve <a name="issue-we-are-solving"></a>
 

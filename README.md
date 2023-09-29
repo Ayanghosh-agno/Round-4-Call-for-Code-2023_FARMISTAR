@@ -63,7 +63,7 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
   
   **7.	Dashboard Insights:** In Salesforce Sales Cloud, FARMISTAR's dashboard visualizes essential reports, including the number of open cases, orders based on products, total crop selling requests, order status breakdown, and orders sorted by farmers and quantity. This data-driven approach provides farmers and stakeholders with valuable insights into their operations.
 
-  **8.	AI-Powered Chatbot and Multilingual Support:** FARMISTAR introduces a chatbot integrated IBM Watson Assistance and Watsonx.Ai for addressing farmers' queries. It's accessible through WhatsApp and an IVR support connect number that employs Text-to-Speech and Speech-to-Text APIs. Additionally, the platform also offers a language selection feature that uses IBM Language Translator, allowing users to choose their preferred language for a more inclusive experience.
+  **8.	AI-Powered Chatbot, Live Agent and Multilingual Support:** FARMISTAR introduces a chatbot integrated IBM Watson Assistance and Watsonx.Ai for addressing farmers' queries. It's accessible through WhatsApp and an IVR support connect number that employs Text-to-Speech and Speech-to-Text APIs, With the accessibility of connecting to a live agent backed by Salesforce. Additionally, the platform also offers a language selection feature that uses IBM Language Translator, allowing users to choose their preferred language for a more inclusive experience.
 
 
 
@@ -84,7 +84,7 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
 
 1.	FARMISTAR stores comprehensive information, including product listings and farmer's data, within Salesforce objects. Weather data retrieved using OpenWeather API through APEX is seamlessly presented on the portal using Lightning Web Components (LWC).
 2.	The platform initiates with displaying rain predictions on the HOME page by fetching data from OpenWeatherAPI, any other predictions as opt by the user like Crop Yield, Fertilizer Prediction and Crop Prediction is subsequently forwarded to Watson Studio (IBM AUTO AI, ML instance) for rainfall predictions via API requests initiated from Apex. These predictions are then exhibited using LWC.
-3.	FARMISTAR's chatbot interactions are designed for user convenience and accessibility, with three distinct channels:-
+3.	FARMISTAR's chatbot interactions are designed for user convenience and accessibility to connected with a live agent backed by Salesforce, FARMISTAR's chatbot has three distinct channels:-
   - Web – User initiate the chat in the Watson Assistant which is further connected with Watsonx.ai through extension.
   - Whatsapp- Chatbot interactions are extended to WhatsApp through Twilio and Watson Assistant's Web chat channel.
   - Call- Users can also initiate chatbot interactions through IVR made using Twilio phone number, leveraging Watson Assistant's Call channel, further connected with WATSONX using extension. Watson Text to Speech and Watson Speech to Text facilitate seamless two-way communication during these calls,

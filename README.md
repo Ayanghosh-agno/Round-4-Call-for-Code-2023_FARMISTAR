@@ -9,7 +9,7 @@
 
   - [Project Summary](#project-summary)
       - [The issue we are hoping to solve](#issue-we-are-solving)
-      - [How our technology solution can help](#technology-Solution)
+      - [How our technology solution can help](#technology-solution)
       - [Our Idea](#our-idea)
   
   - [Technology Implementation](#technology-implementation)
@@ -35,7 +35,7 @@
 
 In a rapidly changing world marked by climate uncertainties, resource scarcity, and the need for sustainable agriculture, we recognized the pressing need to empower farmers with innovative tools and technologies that can enhance their productivity, profitability, and resilience. The agriculture sector is facing numerous challenges, including the need to optimize resource usage, adapt to changing weather patterns, access fair markets, and streamline communication for issue resolution. These challenges are particularly acute for small-scale farmers who lack access to advanced resources and information. Here, FARMISTAR, was born out of the determination to address these sustainability issues and transform agriculture for the better.
 
-### How our technology solution can help <a name="technology-Solution"></a>
+### How our technology solution can help <a name="technology-solution"></a>
 
 Our technology solution, FARMISTAR addresses critical sustainability challenges in agriculture.
 - Firstly, it enhances resource efficiency by leveraging AI to optimize crop yield and recommend suitable crops and fertilizers, thereby reducing unnecessary resource usage and   promoting sustainable farming practices. 

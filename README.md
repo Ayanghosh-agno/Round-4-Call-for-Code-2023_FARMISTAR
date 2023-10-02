@@ -177,7 +177,7 @@ Currently FARMISTAR offers the following features :-
   -  **Crop Selling**: Allows farmers to submit crop selling requests, with FARMISTAR handling quality checks, purchasing processes, and transportation.
   -  **Crop Price Trends**: Provides real-time information on current crop trends and prices per quintal, helping farmers make informed selling decisions.
   -  **Contact Us**: Enables farmers to submit inquiries, complaints, or requests via a simple form, which is converted into Salesforce internal cases for efficient handling.
-  -  **Chatbot Support**: Offers an integrated chatbot powered by IBM Watson Assistance and generative AI capabilities using WatsonX AI. It can be accessed via the portal or WhatsApp.
+  -  **Chatbot Support**: Offers an integrated chatbot powered by IBM Watson Assistance and generative AI capabilities using WatsonX AI. It can be accessed via the portal or WhatsApp along with LIVE AGENT support integrated with salesforce.
   -  **IVR Support**: Provides IVR (Interactive Voice Response) support connected to Watson Assistant with text-to-speech and speech-to-text APIs. Enhanced by Watsonx.AI, it's configured with Twilio API for a seamless experience.
   -  **Language Translation**: Features a language selection option, allowing users to choose their preferred language. The portal's content is displayed in the selected language, enhancing accessibility for a diverse user base.
   -  **Salesforce Integration**: Utilizes Salesforce for secure storage of customer details, product information, and insights, enabling internal users to access data through detailed reports and dynamic dashboards.

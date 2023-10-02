@@ -91,6 +91,9 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
 - [Watsonx ai](https://cloud.ibm.com/watsonx/overview) --> Watsonx.ai is integrated into Watson Assistant to enhance the chatbot's capabilities of FARMISTAR. It is used to provide advanced generative AI capabilities, improving the quality of responses and expanding the chatbot's ability to answer a wide range of user queries accurately and informatively either through our poral, Whatsapp or through IVR. [Watch Here For Details](#bot-setup)
 ### Solution Architecture <a name="solution-architecture"></a>
 
+![Solution Architecture]()
+
+
 1.	FARMISTAR stores comprehensive information, including product listings and farmer's data, within Salesforce objects. Weather data retrieved using OpenWeather API through APEX is seamlessly presented on the portal using Lightning Web Components (LWC).
 2.	The platform initiates with displaying rain predictions on the HOME page by fetching data from OpenWeatherAPI, any other predictions as opt by the user like Crop Yield, Fertilizer Prediction and Crop Prediction is subsequently forwarded to Watson Studio (IBM AUTO AI, ML instance) for rainfall predictions via API requests initiated from Apex. These predictions are then exhibited using LWC.
 3.	FARMISTAR's chatbot interactions are designed for user convenience and accessibility to connected with a live agent backed by Salesforce, FARMISTAR's chatbot has three distinct channels:-
@@ -100,6 +103,7 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
 4.	When users make purchases from the marketplace, FARMISTAR promptly confirms their orders via SMS using the NEXMO messaging API, skillfully orchestrated through Apex.
 5.	To enhance user experience, the platform offers users the choice to select their preferred language for the platform's interface, which is done by WATSON LANGUAGE TRANSLATOR thought the api calls from apex.
 6.	All this invaluable information is securely stored within Salesforce, and users can access insights and analytics through meticulously designed REPORTS & DASHBOARDS.
+
 
 <h2 align="center"> Detailed Description <a name="detail-materials"></a> </h2>
 
@@ -159,20 +163,50 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
 
 ### Solution Demo Video <a name="solution-demo-video"></a>
 
-
-
+[![Solution Demo Video](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Assets/Farmistar%20Thumbnail.png)]()
 
 ### Project Development Roadmap <a name="project-development-roadmap"></a>
 
+Currently FARMISTAR offers the following features :-
+
+  -  **Real-Time Weather Forecasts**: Provides farmers with real-time weather conditions and predictions using geolocation data.
+  -  **Rain Possibility Predictions**: Utilizes IBM Watson integrated with IBM Auto AI to predict rain possibilities, enabling farmers to plan their activities effectively.
+  -  **Crop Management**: Calculates crop yields, recommends suitable crops, and suggests the right fertilizers powered by IBM Auto AI, facilitating data-driven decisions.
+  -  **Marketplace**: Offers a user-friendly marketplace where farmers can find essential agricultural products, select items, and complete the checkout process.
+  -  **Order Confirmation**: Integrated order confirmation via email and SMS, with each order accompanied by a unique tracking ID for easy order tracking.
+  -  **Crop Selling**: Allows farmers to submit crop selling requests, with FARMISTAR handling quality checks, purchasing processes, and transportation.
+  -  **Crop Price Trends**: Provides real-time information on current crop trends and prices per quintal, helping farmers make informed selling decisions.
+  -  **Contact Us**: Enables farmers to submit inquiries, complaints, or requests via a simple form, which is converted into Salesforce internal cases for efficient handling.
+  -  **Chatbot Support**: Offers an integrated chatbot powered by IBM Watson Assistance and generative AI capabilities using WatsonX AI. It can be accessed via the portal or WhatsApp.
+  -  **IVR Support**: Provides IVR (Interactive Voice Response) support connected to Watson Assistant with text-to-speech and speech-to-text APIs. Enhanced by Watsonx.AI, it's configured with Twilio API for a seamless experience.
+  -  **Language Translation**: Features a language selection option, allowing users to choose their preferred language. The portal's content is displayed in the selected language, enhancing accessibility for a diverse user base.
+  -  **Salesforce Integration**: Utilizes Salesforce for secure storage of customer details, product information, and insights, enabling internal users to access data through detailed reports and dynamic dashboards.
+
+In future I am planning to enhance/upgrade FARMISTAR in the following way :- 
+
+  -  **Secure Payment Gateway**: We aim to implement a secure and user-friendly payment gateway within the platform. This will facilitate seamless financial transactions, ensuring that farmers can conveniently manage their payments and transactions right from FARMISTAR.
+  -  **Integration of IoT Devices**: We're excited to incorporate Internet of Things (IoT) devices for real-time monitoring of critical factors such as soil conditions, crop health, and farm equipment status. The data collected from these devices will seamlessly integrate into FARMISTAR, providing farmers with valuable insights for better decision-making and precision farming.
+  -  **WatsonX-Powered Content**: We plan to leverage WatsonX to generate high-quality, context-aware content. This content will include agricultural articles, guides, and educational resources, offering farmers up-to-date information and actionable insights right within the FARMISTAR platform.
+  -  **User-Centric Approach**: Our commitment to serving farmers remains unwavering. We will continue to gather user feedback, incorporating valuable insights into our platform's development. New features, improvements, and scalability will be our focus as we aim to expand our operations and reach, benefiting an even broader agricultural community.
+
+
+![Roadmap]()
 
 
 <h2 align="center"> Additional Details <a name="additional-details"></a> </h2>
 
 ### How to run the project <a name="run-the-project"></a>
 
+1. Set up Salesforce Environment
+2. Clone this git repository in local machine `git clone https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR`
+3. Deploy to Salesforce environment using CLI tools.
+4. Configure a Experience Cloud site and place the components as needed cloned from this repository.
+5. Ensure all security settings and permissions are given for logged in as well as guest users of experience cloud in Salesforce Side.
+
 
 ### Live Demo <a name="Live-Demo"></a>
 
+We can see live working of FARMISTAR - [Here](https://ayanghosh-dev-ed.my.site.com/)
 
 <h2 align="center"> About <a name="about"></a> </h2>
 

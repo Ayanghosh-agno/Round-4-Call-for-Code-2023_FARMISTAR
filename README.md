@@ -139,7 +139,7 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
 <img src="https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Assets/Chatbot-Liveagent.png">
 
 -  Pointer to Code :-
-    -  [newwatsonassistance.page]()- This VF page has been created to display the pas conversation from the FARMISTAR BOT so that our Live Agents can get context of exactly what the farmer is looking for.
+    -  [newwatsonassistance.page]()- This VF page has been created to display the past conversation from the FARMISTAR BOT so that our Live Agents can get context of exactly what the farmer is looking for.
 
 
 ### Acknowledgments, Tracking & Translator<a name="acknowledgment-trackings"></a>

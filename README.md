@@ -16,7 +16,15 @@
       - [IBM AI Service(s) used](#ibm-ai-service)
       - [Other IBM technology used](#other-ibm-tech)
       - [Solution Architecture](#solution-architecture)
-     
+
+  -  [Detailed Description](#detail-materials)
+      -  [Crop Recommendation, Weather Data & Predictions](#crop-predic)
+      -  [Farmistar Bot](#farmistar-bot)
+          - [Farmistar Bot - setup](#bot-setup)
+          - [Farmistar Bot - Live Agent](#live-agent)
+      -  [Acknowledgments & Tracking](#acknowledgment-trackings)
+      -  [Salesforce Internal Insights](#salesforce-insights)
+             
   - [Presentation materials](#presentation-materials)
       - [Solution Demo Video](#solution-demo-video)
       - [Project development roadmap](#project-development-roadmap)
@@ -94,7 +102,7 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
 
 <h2 align="center"> Detailed Description <a name="detail-materials"></a> </h2>
 
-### Crop Recommendation, Weather Data & Predictions<a name="farmistar-bot"></a>
+### Crop Recommendation, Weather Data & Predictions<a name="crop-predic"></a>
 
 <img src="https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Assets/Crop%20Recommendation%20%26%20Prediction%20.png">
 
@@ -129,7 +137,7 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
     -  [newwatsonassistance.page]()- This VF page has been created to display the pas conversation from the FARMISTAR BOT so that our Live Agents can get context of exactly what the farmer is looking for.
 
 
-### Acknowledgments & Tracking<a name="acknowledgment-tracking"></a>
+### Acknowledgments & Tracking<a name="acknowledgment-trackings"></a>
 
 <img src="https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Assets/Confirmations%20%26%20Tracking.png">
 
@@ -139,6 +147,11 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
     -  [IBMTranslator.cls]()-This apex class is used to do call out to Watson Language Translator and receive the translated language from Watson Language translator.
     -  [Commu_trakercrop]()-LWC to take the orderid as input and display the related order details.
     -  [Commu_header]()-LWC to display the navigation blocks as well as the language selection options.
+
+### Salesforce Internal Insights<a name="salesforce-insights"></a>
+
+<img src="https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Assets/Salesforce%20insights.png">
+
 
 
 <h2 align="center"> Presentation materials <a name="presentation-materials"></a> </h2>

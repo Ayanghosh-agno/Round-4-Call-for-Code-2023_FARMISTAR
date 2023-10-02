@@ -94,6 +94,24 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
 
 <h2 align="center"> Detailed Description <a name="detail-materials"></a> </h2>
 
+### Crop Recommendation, Weather Data & Predictions<a name="farmistar-bot"></a>
+
+<img src="https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Assets/Crop%20Recommendation%20%26%20Prediction%20.png">
+
+-  Pointer to Code :-
+
+    -  [IBMIdentityAuth.cls]()- This apex class is used to get the IAM authentication token for our IBM cloud account.
+    -  [WatsonMLPrediction_Crop_Recommendation.cls]()-This apex class is used to make the callout for the Crop Recommendation prediction using the data sent from LWC and                   authentication token from [IBMIdentityAuth.cls]() as a authorization key.
+    -  [WatsonMLPrediction_Crop_Yield.cls]()- This apex class is used to make the callout for the Crop Yield prediction using the data sent from LWC and authentication token from         [IBMIdentityAuth.cls]() as a authorization key.
+    -  [WatsonMLPrediction_Fertilizer_Recomm.cls]()-This apex class is used to make the callout for the Fertilizer prediction using the data sent from LWC and authentication token         from [IBMIdentityAuth.cls]() as a authorization key.
+    -  [WatsonMLPrediction_Rain.cls]()-This apex class is used to make the callout for the rain prediction using the data sent from OpenWeatherAPI.
+    -  [Commu_croprecommendation]()- LWC to capture the input of land details to display and predict Best Crop.
+    -  [Commu_fertilizerprediction]()-LWC to capture input of land details to display and predict Best Fertilizer.
+    -  [Commu_rainpredic]()-LWC to display the rain prediction based out of OpenWeatherAPI data.
+    -  [Commu_crop_yield]()-LWC to capture input of crop,year and other details to display and predict crop yield.
+    -  [WeatherInfo_comm]()-LWC to display the weather information of user's current location using OpenweatherAPI.
+    
+
 ### Farmistar Bot<a name="farmistar-bot"></a>
 
 #### Farmistar Bot - Setup (Web, Whatsapp & IVR)  <a name="bot-setup"></a>
@@ -101,14 +119,27 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
 <img src="https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Assets/Bot-Setup.png">
 
 -  Pointer to Code :-
-  -  [Watson.js]()- This is static resource is used in our LWC componet - [Footer LWC]() to render our Watson assistance into our experience cloud page.
+    -  [Watson.js]()- This is static resource is used in our LWC componet - [Footer LWC]() to render our Watson assistance into our experience cloud page.
 
 #### Farmistar Bot - Live Agent<a name="live-agent"></a>
 
 <img src="https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Assets/Chatbot-Liveagent.png">
 
 -  Pointer to Code :-
-  -  [newwatsonassistance.page]()- This VF page has been created to display the pas conversation from the FARMISTAR BOT so that our Live Agents can get context of exactly what the farmer is looking for.
+    -  [newwatsonassistance.page]()- This VF page has been created to display the pas conversation from the FARMISTAR BOT so that our Live Agents can get context of exactly what the farmer is looking for.
+
+
+### Acknowledgments & Tracking<a name="acknowledgment-tracking"></a>
+
+<img src="https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Assets/Confirmations%20%26%20Tracking.png">
+
+-  Pointer to Code :-
+    -  [Send_sms_mail.cls]()- This apex class is used to trigger SMS & Email confirmation for any Orders, Crop Selling proposal & Inquiry.
+    -  [Farmister_Operation_Ctrl.cls]()- This apex class is responsible for fetching tracking details,Language selection check, creating order, submiting crop selling proposal,           submiting any inquiry
+    -  [IBMTranslator.cls]()-This apex class is used to do call out to Watson Language Translator and receive the translated language from Watson Language translator.
+    -  [Commu_trakercrop]()-LWC to take the orderid as input and display the related order details.
+    -  [Commu_header]()-LWC to display the navigation blocks as well as the language selection options.
+
 
 <h2 align="center"> Presentation materials <a name="presentation-materials"></a> </h2>
 

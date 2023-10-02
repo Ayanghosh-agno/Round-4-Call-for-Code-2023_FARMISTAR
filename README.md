@@ -92,10 +92,28 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
 5.	To enhance user experience, the platform offers users the choice to select their preferred language for the platform's interface, which is done by WATSON LANGUAGE TRANSLATOR thought the api calls from apex.
 6.	All this invaluable information is securely stored within Salesforce, and users can access insights and analytics through meticulously designed REPORTS & DASHBOARDS.
 
+<h2 align="center"> Detailed Description <a name="detail-materials"></a> </h2>
+
+### Farmistar Bot<a name="farmistar-bot"></a>
+
+#### Farmistar Bot - Setup (Web, Whatsapp & IVR)  <a name="bot-setup"></a>
+
+<img src="https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Assets/Bot-Setup.png">
+
+-  Pointer to Code :-
+  -  [Watson.js]()- This is static resource is used in our LWC componet - [Footer LWC]() to render our Watson assistance into our experience cloud page.
+
+#### Farmistar Bot - Live Agent<a name="live-agent"></a>
+
+<img src="https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Assets/Chatbot-Liveagent.png">
+
+-  Pointer to Code :-
+  -  [newwatsonassistance.page]()- This VF page has been created to display the pas conversation from the FARMISTAR BOT so that our Live Agents can get context of exactly what the farmer is looking for.
 
 <h2 align="center"> Presentation materials <a name="presentation-materials"></a> </h2>
 
 ### Solution Demo Video <a name="solution-demo-video"></a>
+
 
 
 

@@ -92,8 +92,7 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
 - [Watsonx ai](https://cloud.ibm.com/watsonx/overview) --> Watsonx.ai is integrated into Watson Assistant to enhance the chatbot's capabilities of FARMISTAR. It is used to provide advanced generative AI capabilities, improving the quality of responses and expanding the chatbot's ability to answer a wide range of user queries accurately and informatively either through our poral, Whatsapp or through IVR. [Watch Here For Details](#bot-setup)
 ### Solution Architecture <a name="solution-architecture"></a>
 
-![Solution Architecture]()
-
+![Solution Architecture](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Assets/Farmistar%20Architecture.png)
 
 1.	FARMISTAR stores comprehensive information, including product listings and farmer's data, within Salesforce objects. Weather data retrieved using OpenWeather API through APEX is seamlessly presented on the portal using Lightning Web Components (LWC).
 2.	The platform initiates with displaying rain predictions on the HOME page by fetching data from OpenWeatherAPI, any other predictions as opt by the user like Crop Yield, Fertilizer Prediction and Crop Prediction is subsequently forwarded to Watson Studio (IBM AUTO AI, ML instance) for rainfall predictions via API requests initiated from Apex. These predictions are then exhibited using LWC.

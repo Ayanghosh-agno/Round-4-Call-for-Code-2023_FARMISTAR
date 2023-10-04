@@ -18,7 +18,7 @@
       - [Solution Architecture](#solution-architecture)
 
   -  [Detailed Description](#detail-materials)
-      -  [Marketplace, Crop Selling & AboutUs](#other-page)
+      -  [Marketplace, Crop Selling & ContactUs](#other-page)
       -  [Crop Recommendation, Weather Data & Predictions](#crop-predic)
       -  [Farmistar Bot](#farmistar-bot)
           - [Farmistar Bot - setup](#bot-setup)

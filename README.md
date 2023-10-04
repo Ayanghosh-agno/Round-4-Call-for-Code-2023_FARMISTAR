@@ -18,6 +18,7 @@
       - [Solution Architecture](#solution-architecture)
 
   -  [Detailed Description](#detail-materials)
+      -  [Marketplace, Crop Selling & AboutUs](#other-page)
       -  [Crop Recommendation, Weather Data & Predictions](#crop-predic)
       -  [Farmistar Bot](#farmistar-bot)
           - [Farmistar Bot - setup](#bot-setup)
@@ -106,6 +107,24 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
 
 
 <h2 align="center"> Detailed Description <a name="detail-materials"></a> </h2>
+
+### Marketplace, Crop Selling & AboutUs <a name="other-page"></a>
+
+<img src="https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Assets/Marketplace%2CCrop%20Selling%20%26%20Contact%20Us.png">
+
+
+-  Pointer to Code :-
+
+    -  [Farmister_Operation_Ctrl.cls]()- This apex class is responsible for fetching tracking details,Language selection check, creating order, submiting crop selling proposal,                 submiting any inquiry.
+    -  [Shoping_Cart]()-LWC to diaplay all the products, add to cart and further checkout process.
+    -  [Commu_shipping_form]()-LWC to capture shipping information of the farmer in order to ship the product they choosed to buy from FARMISTAR.
+    -  [Commu_cropprice]()- LWC to show the current crops price trends.
+    -  [Farmer_Selling]()-LWC to collect all the crop related details that the farmer want to sell.
+    -  [commu_contactus_form]()- LWC to collect information from farmer for their inquiry and send it to apex class to insert it as an internal Salesforce case.
+
+
+
+
 
 ### Crop Recommendation, Weather Data & Predictions<a name="crop-predic"></a>
 

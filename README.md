@@ -62,7 +62,7 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
   
   **2.	Crop Management and Recommendations:** FARMISTAR goes beyond weather updates. It utilizes IBM Watson Studio's IBM Auto AI & Watson ML instances to calculate crop yield predictions, recommend the best-suited crops for specific conditions, and provide guidance on the optimal use of fertilizers. This AI-driven approach optimizes resource utilization, reduces waste, and promotes sustainable farming practices, all of which are crucial for the long-term health of our planet.
   
-  **3.	Marketplace for Fair Trade:** FARMISTAR offers a marketplace where farmers can list their produce and access a wide range of necessary farming items. What distinguishes this marketplace is its commitment to fair trade. We ensure that farmers receive competitive prices for their crops, enabling them to secure a sustainable source of income. Moreover, FARMISTAR manages the entire handling process, making it hassle-free for farmers.
+  **3.	Marketplace for Fair Trade:** FARMISTAR offers a marketplace where farmers can list their produce and access a wide range of necessary farming items. What distinguishes this marketplace is its commitment to fair trade. FARMISTAR ensure that farmers receive competitive prices for their crops, enabling them to secure a sustainable source of income. Moreover, FARMISTAR manages the entire handling process, making it hassle-free for farmers.
   
   **4.	Efficient Order Management:** The platform streamlines order management by integrating order confirmation via email and SMS, complete with unique order tracking IDs. Farmers can easily track their orders, access order details such as total price and order placement date, and monitor the status of their requests.Integration under the Salesforce Sales Cloud, make it more easy to efficiently manage orders and data for seamless experience of the Farmers. This transparent system fosters trust and efficient communication between farmers and suppliers.
   
@@ -194,6 +194,8 @@ Currently FARMISTAR offers the following features :-
   -  **Order Confirmation**: Integrated order confirmation via email and SMS, with each order accompanied by a unique tracking ID for easy order tracking.
   -  **Crop Selling**: Allows farmers to submit crop selling requests, with FARMISTAR handling quality checks, purchasing processes, and transportation.
   -  **Crop Price Trends**: Provides real-time information on current crop trends and prices per quintal, helping farmers make informed selling decisions.
+  -  **Crop Listing**: FARMISTAR offers hosting of the farmer's produce after verification from FARMISTAR Internal Users.
+  -  **OTP Verification**: Farmers can change their hosting crop status to "SOLD" after a OTP verification sent to their Mobile/Mail.
   -  **Contact Us**: Enables farmers to submit inquiries, complaints, or requests via a simple form, which is converted into Salesforce internal cases for efficient handling.
   -  **Chatbot Support**: Offers an integrated chatbot powered by IBM Watson Assistance and generative AI capabilities using WatsonX AI. It can be accessed via the portal or WhatsApp along with LIVE AGENT support integrated with salesforce.
   -  **IVR Support**: Provides IVR (Interactive Voice Response) support connected to Watson Assistant with text-to-speech and speech-to-text APIs. Enhanced by Watsonx.AI, it's configured with Twilio API for a seamless experience.
@@ -202,10 +204,10 @@ Currently FARMISTAR offers the following features :-
 
 In future I am planning to enhance/upgrade FARMISTAR in the following way :- 
 
-  -  **Secure Payment Gateway**: We aim to implement a secure and user-friendly payment gateway within the platform. This will facilitate seamless financial transactions, ensuring that farmers can conveniently manage their payments and transactions right from FARMISTAR.
-  -  **Integration of IoT Devices**: We're excited to incorporate Internet of Things (IoT) devices for real-time monitoring of critical factors such as soil conditions, crop health, and farm equipment status. The data collected from these devices will seamlessly integrate into FARMISTAR, providing farmers with valuable insights for better decision-making and precision farming.
-  -  **WatsonX-Powered Content**: We plan to leverage WatsonX to generate high-quality, context-aware content. This content will include agricultural articles, guides, and educational resources, offering farmers up-to-date information and actionable insights right within the FARMISTAR platform.
-  -  **User-Centric Approach**: Our commitment to serving farmers remains unwavering. We will continue to gather user feedback, incorporating valuable insights into our platform's development. New features, improvements, and scalability will be our focus as we aim to expand our operations and reach, benefiting an even broader agricultural community.
+  -  **Secure Payment Gateway**: I aim to implement a secure and user-friendly payment gateway within the platform. This will facilitate seamless financial transactions, ensuring that farmers can conveniently manage their payments and transactions right from FARMISTAR.
+  -  **Integration of IoT Devices**: I am excited to incorporate Internet of Things (IoT) devices for real-time monitoring of critical factors such as soil conditions, crop health, and farm equipment status. The data collected from these devices will seamlessly integrate into FARMISTAR, providing farmers with valuable insights for better decision-making and precision farming.
+  -  **WatsonX-Powered Content**:I plan to leverage WatsonX to generate high-quality, context-aware content. This content will include agricultural articles, guides, and educational resources, offering farmers up-to-date information and actionable insights right within the FARMISTAR platform.
+  -  **User-Centric Approach**: Our commitment to serving farmers remains unwavering. I will continue to gather user feedback, incorporating valuable insights into our platform's development. New features, improvements, and scalability will be our focus as I aim to expand our operations and reach, benefiting an even broader agricultural community.
 
 
 ![Roadmap]()

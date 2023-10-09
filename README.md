@@ -18,7 +18,7 @@
       - [Solution Architecture](#solution-architecture)
 
   -  [Detailed Description](#detail-materials)
-      -  [Marketplace, Crop Selling & ContactUs](#other-page)
+      -  [Marketplace, Crop Selling & Contact Us](#other-page)
       -  [Crop Recommendation, Weather Data & Predictions](#crop-predic)
       -  [Farmistar Bot](#farmistar-bot)
           - [Farmistar Bot - setup](#bot-setup)
@@ -107,7 +107,7 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
 
 <h2 align="center"> Detailed Description <a name="detail-materials"></a> </h2>
 
-### Marketplace, Crop Selling & AboutUs <a name="other-page"></a>
+### Marketplace, Crop Selling & Contact Us <a name="other-page"></a>
 
 <img src="https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Assets/Marketplace%2CCrop%20Selling%20%26%20Contact%20Us.png">
 

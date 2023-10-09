@@ -49,7 +49,7 @@ In a rapidly changing world marked by climate uncertainties, resource scarcity, 
 Our technology solution, FARMISTAR addresses critical sustainability challenges in agriculture.
 - Firstly, it enhances resource efficiency by leveraging AI to optimize crop yield and recommend suitable crops and fertilizers, thereby reducing unnecessary resource usage and   promoting sustainable farming practices. 
 - Secondly, it aids in weather-based decision-making, allowing farmers to adapt to changing climate conditions and mitigate the impact of extreme weather events on their crops.
-- Thirdly, FARMISTAR promotes fair trade and supports small-scale farmers by providing a marketplace for their produce, ensuring a sustainable source of income. 
+- Thirdly, FARMISTAR promotes fair trade and supports small-scale farmers by providing a marketplace for their produce, ensuring a sustainable source of income as well as a place where they can buy their essentials they need for farming. 
 - Finally, it streamlines communication and issue resolution through either web-to-case system, web chatbot, whatsapp chatbot or through IVR, fostering better farmer-farmer and farmer-service provider interactions, ultimately contributing to the sustainability and resilience of agriculture in the face of modern challenges.
 
 ### Our Idea : Revolutionizing Agriculture with FARMISTAR <a name="our-idea"></a>

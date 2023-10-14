@@ -1,0 +1,3 @@
+<apex:page standardController="LiveChatTranscript" >
+  <iframe src="https://web-chat.global.assistant.watson.appdomain.cloud/loadAgentAppFrame.html?session_history_key={! LiveChatTranscript.x_watson_assistant_key__c }" style="box-sizing: border-box; width: 100%; height: calc(100vh - 20px); margin:0; padding: 0; border: 0;" />
+</apex:page>

@@ -114,7 +114,7 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
 
 -  Pointer to Code :-
 
-    -  [Farmister_Operation_Ctrl.cls]()- This apex class is responsible for fetching tracking details,Language selection check, creating order, submiting crop selling proposal,                 submiting any inquiry.
+    -  [Farmister_Operation_Ctrl.cls](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/classes/Farmister_Operation_Ctrl.cls)- This apex class is responsible for fetching tracking details,Language selection check, creating order, submiting crop selling proposal,                 submiting any inquiry.
     -  [Shoping_Cart]()-LWC to diaplay all the products, add to cart and further checkout process.
     -  [Commu_shipping_form]()-LWC to capture shipping information of the farmer in order to ship the product they choosed to buy from FARMISTAR.
     -  [Commu_cropprice]()- LWC to show the current crops price trends.
@@ -131,11 +131,11 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
 
 -  Pointer to Code :-
 
-    -  [IBMIdentityAuth.cls]()- This apex class is used to get the IAM authentication token for our IBM cloud account.
-    -  [WatsonMLPrediction_Crop_Recommendation.cls]()-This apex class is used to make the callout for the Crop Recommendation prediction using the data sent from LWC and                   authentication token from [IBMIdentityAuth.cls]() as a authorization key.
-    -  [WatsonMLPrediction_Crop_Yield.cls]()- This apex class is used to make the callout for the Crop Yield prediction using the data sent from LWC and authentication token from         [IBMIdentityAuth.cls]() as a authorization key.
-    -  [WatsonMLPrediction_Fertilizer_Recomm.cls]()-This apex class is used to make the callout for the Fertilizer prediction using the data sent from LWC and authentication token         from [IBMIdentityAuth.cls]() as a authorization key.
-    -  [WatsonMLPrediction_Rain.cls]()-This apex class is used to make the callout for the rain prediction using the data sent from OpenWeatherAPI.
+    -  [IBMIdentityAuth.cls](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/classes/IBMIdentityAuth.cls)- This apex class is used to get the IAM authentication token for our IBM cloud account.
+    -  [WatsonMLPrediction_Crop_Recommendation.cls](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/classes/WatsonMLPrediction_Crop_Recommendation.cls)-This apex class is used to make the callout for the Crop Recommendation prediction using the data sent from LWC and authentication token from [IBMIdentityAuth.cls](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/classes/IBMIdentityAuth.cls) as a authorization key.
+    -  [WatsonMLPrediction_Crop_Yield.cls](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/classes/WatsonMLPrediction_Crop_Yield.cls)- This apex class is used to make the callout for the Crop Yield prediction using the data sent from LWC and authentication token from [IBMIdentityAuth.cls](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/classes/IBMIdentityAuth.cls) as a authorization key.
+    -  [WatsonMLPrediction_Fertilizer_Recomm.cls](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/classes/WatsonMLPrediction_Fertilizer_Recomm.cls)-This apex class is used to make the callout for the Fertilizer prediction using the data sent from LWC and authentication tokenfrom [IBMIdentityAuth.cls](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/classes/IBMIdentityAuth.cls) as a authorization key.
+    -  [WatsonMLPrediction_Rain.cls](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/classes/WatsonMLPrediction_Rain.cls)-This apex class is used to make the callout for the rain prediction using the data sent from OpenWeatherAPI.
     -  [Commu_croprecommendation]()- LWC to capture the input of land details to display and predict Best Crop.
     -  [Commu_fertilizerprediction]()-LWC to capture input of land details to display and predict Best Fertilizer.
     -  [Commu_rainpredic]()-LWC to display the rain prediction based out of OpenWeatherAPI data.
@@ -165,9 +165,9 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
 <img src="https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Assets/Confirmations%20%26%20Tracking.png">
 
 -  Pointer to Code :-
-    -  [Send_sms_mail.cls]()- This apex class is used to trigger SMS & Email confirmation for any Orders, Crop Selling proposal & Inquiry.
-    -  [Farmister_Operation_Ctrl.cls]()- This apex class is responsible for fetching tracking details,Language selection check, creating order, submiting crop selling proposal,           submiting any inquiry
-    -  [IBMTranslator.cls]()-This apex class is used to do call out to Watson Language Translator and receive the translated language from Watson Language translator.
+    -  [Send_sms_mail.cls](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/classes/Send_sms_mail.cls)- This apex class is used to trigger SMS & Email confirmation for any Orders, Crop Selling proposal & Inquiry.
+    -  [Farmister_Operation_Ctrl.cls](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/classes/Farmister_Operation_Ctrl.cls)- This apex class is responsible for fetching tracking details,Language selection check, creating order, submiting crop selling proposal,submiting any inquiry
+    -  [IBMTranslator.cls](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/classes/IBMTranslator.cls)-This apex class is used to do call out to Watson Language Translator and receive the translated language from Watson Language translator.
     -  [Commu_trakercrop]()-LWC to take the orderid as input and display the related order details.
     -  [Commu_header]()-LWC to display the navigation blocks as well as the language selection options.
 
@@ -181,8 +181,7 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
 
 ### Solution Demo Video <a name="solution-demo-video"></a>
 
-[![Solution Demo Video](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Assets/Farmistar%20Thumbnail.png)]()
-
+[![Solution Demo Video](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Assets/Farmistar%20Thumbnail.png)](https://youtu.be/YSzjFX-xO30)
 ### Project Development Roadmap <a name="project-development-roadmap"></a>
 
 Currently FARMISTAR offers the following features :-

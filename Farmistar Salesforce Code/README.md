@@ -8,7 +8,7 @@
 
 ## Resources
 
-For details on using sfdx-simple, please review the following :
+For details on using SFDX,CLI please review the following :
 
 - [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
 - [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)

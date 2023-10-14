@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q_A</fullName>
+    <columns>NAME</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Q_A_order__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Q/A</label>
+</ListView>

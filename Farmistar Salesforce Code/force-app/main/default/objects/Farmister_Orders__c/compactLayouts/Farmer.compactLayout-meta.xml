@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Farmer</fullName>
+    <fields>Name</fields>
+    <fields>Name__c</fields>
+    <fields>Status__c</fields>
+    <fields>Q_A_order__c</fields>
+    <fields>Phone_No__c</fields>
+    <fields>Email_Id__c</fields>
+    <fields>State__c</fields>
+    <fields>City__c</fields>
+    <fields>Pincode__c</fields>
+    <fields>Crop_Type__c</fields>
+    <label>Farmer</label>
+</CompactLayout>

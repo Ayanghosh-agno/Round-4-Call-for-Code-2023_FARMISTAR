@@ -1,0 +1,144 @@
+/* Add your CSS styles here */
+.contact-us {
+    text-align: center;
+    margin: 20px;
+}
+
+.contact-hero {
+    background-color: #f2a154;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Updated styles for the header */
+.hero-title {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero-description {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+/* Style for the form heading */
+.form-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-field {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Adjust the width of input and textarea */
+input[type="text"],input[type="email"],
+textarea {
+    width: 20rem; /* Adjust the width as needed */
+}
+
+.submit-button {
+    background-color: #f2a154;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #ff884d;
+}
+
+.contact-features {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.features-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.feature {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.feature-description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.quote {
+    font-size: 18px;
+    font-style: italic;
+    color: #888;
+}
+
+.footer {
+    background-color:rgb(41, 50, 65);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #fff;
+}

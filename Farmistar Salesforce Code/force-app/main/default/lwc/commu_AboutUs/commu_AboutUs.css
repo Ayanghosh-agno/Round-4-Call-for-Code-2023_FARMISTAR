@@ -1,0 +1,65 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles (similar to other pages) */
+.header {
+    /* Header styles (similar to other pages) */
+}
+
+/* About Us Hero Section Styles */
+.about-us-hero {
+    background-color: #f2a154;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.about-us-hero .hero-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-us-hero .hero-description {
+    font-size: 18px;
+}
+
+/* About Us Details Section Styles */
+.about-us-details {
+    background-color: rgba(181, 180, 180, 0.26);
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about-us-details .details-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-us-details .details-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Footer Styles (similar to other pages) */
+.footer {
+    /* Footer styles (similar to other pages) */
+}
+.about-us-details .developer-info {
+    font-size: 14px;
+    font-weight: bold;
+    color: #888888;
+    margin-top: 20px;
+}

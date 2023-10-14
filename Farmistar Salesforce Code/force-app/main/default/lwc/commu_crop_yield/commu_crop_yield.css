@@ -1,0 +1,44 @@
+.custom-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.custom-form {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+}
+/* Style for the predict button */
+.custom-button {
+    background-color: #009688; /* Button background color */
+    color: #fff; /* Button text color */
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.custom-button:hover {
+    background-color: #007a63; /* Button background color on hover */
+}
+
+.custom-input {
+    margin-bottom: 20px;
+}
+
+.custom-input label {
+    font-weight: bold;
+}
+
+.custom-button {
+    text-align: center;
+}

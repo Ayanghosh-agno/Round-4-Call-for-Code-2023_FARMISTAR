@@ -1,0 +1,97 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles (similar to homepage header) */
+.header {
+    /* Header styles (similar to homepage) */
+}
+
+/* Crop Sale Hero Section Styles */
+.crop-sale-hero {
+    background-color: #f2a154;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.crop-sale-hero .hero-content {
+    max-width: 50%;
+}
+
+.crop-sale-hero .hero-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.crop-sale-hero .hero-description {
+    font-size: 20px;
+}
+
+.crop-sale-hero .cta-button {
+    background-color: #293241;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.crop-sale-hero .cta-button:hover {
+    background-color: #f2a154;
+}
+
+/* Crop Sale Features Section Styles */
+.crop-sale-features {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.crop-sale-features .features-title {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.crop-sale-features .feature {
+    margin-bottom: 40px;
+}
+
+.crop-sale-features .feature-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    display: block;
+}
+
+.crop-sale-features .feature-title {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.crop-sale-features .feature-description {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.crop-sale-features .quote {
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* Footer Styles (similar to homepage footer) */
+.footer {
+    /* Footer styles (similar to homepage) */
+}

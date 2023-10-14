@@ -1,0 +1,65 @@
+<template>
+	<lightning-card title="Crop Yield Prediction" icon-name="utility:chart">
+		<template if:true={isSpinner}>
+
+			<lightning-spinner style="background-color:rgba(255,255,255,.75)" alternative-text="Loading" variant="brand" size="medium">
+			</lightning-spinner>
+		</template>
+
+		<div class="custom-form-container">
+			<div class="custom-form">
+				<div class="custom-input">
+					<label for="state">State</label>
+					<lightning-input label="state" variant="label-hidden" type="text" id="state" name="state"
+						value={state} onchange={handleInputChange}></lightning-input>
+				</div>
+
+				<div class="custom-input">
+					<label for="district">District</label>
+					<lightning-input label="District" variant="label-hidden" type="text" id="district" name="district"
+						value={district} onchange={handleInputChange}></lightning-input>
+				</div>
+
+				<div class="custom-input">
+					<label for="year">Year</label>
+					<lightning-input label="Year" variant="label-hidden" type="number" id="year" name="year"
+						value={year} onchange={handleInputChange}></lightning-input>
+				</div>
+
+				<div class="custom-input">
+					<label for="season">Season</label>
+					<lightning-input label="Season" variant="label-hidden" type="text" id="season" name="season"
+						value={season} onchange={handleInputChange}></lightning-input>
+				</div>
+
+				<div class="custom-input">
+					<label for="crop">Crop</label>
+					<lightning-input label="Crop" variant="label-hidden" type="text" id="crop" name="crop" value={crop}
+						onchange={handleInputChange}></lightning-input>
+				</div>
+
+				<div class="custom-input">
+					<label for="area">Area (in hectares)</label>
+					<lightning-input label="Area" variant="label-hidden" type="number" id="area" name="area"
+						value={area} onchange={handleInputChange}></lightning-input>
+				</div>
+				<div class="slds-text-align_center">
+					<button class="custom-button" onclick={handleSubmit}>Predict Yield</button>
+					<!-- Prediction Result Section -->
+					<template if:true={predictionResult}>
+						<div class="custom-result">
+							<div class="custom-form-title">
+								<strong>	Prediction Result </strong>
+							</div>
+							<div class="custom-result-text">
+								<strong> {predictionResult} </strong>
+							</div>
+						</div>
+					</template>
+				</div>
+
+			</div>
+		</div>
+
+	</lightning-card>
+</template>

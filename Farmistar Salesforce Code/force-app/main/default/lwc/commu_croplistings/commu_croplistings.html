@@ -1,0 +1,49 @@
+<template>
+    <div class="toaster-container" if:true={showToaster}>
+        <div class="toaster-message">
+            {message}
+        </div>
+    </div>
+	<div class="produce-listing">
+		<h2 class="header">Farmer's Listing - Direct from Farm</h2>
+		<ul class="produce-list">
+			<template for:each={produceItems} for:item="item">
+				<li key={item.Id} class="produce-item">
+					<div class="produce-image">
+						<!-- Placeholder image, replace with actual product images -->
+						<img src={seeds_} style="width:150px;height:100px"/>
+
+                    </div>
+						<div class="produce-details">
+							<h3>{item.Name}</h3>
+							<!-- <p><strong>Description:</strong> {item.Description}</p> -->
+							<p><strong>Price per Qnt :</strong> Rs {item.Price}</p>
+							<p><strong>Quantity:</strong> {item.Quantity}</p>
+						</div>
+						<div class="produce-actions">
+							<button class="delete-button" onclick={handleDelete} data-id={item.Id}>Mark as Sold</button>
+							<lightning-button-icon-stateful icon-name="utility:layout" selected={item.showContactInfo}
+								data-index={item.Id} onclick={handleContact} alternative-text="Farmer's Contact"
+								class="slds-m-left_xx-small"></lightning-button-icon-stateful>
+						</div>
+						<div if:true={item.showContactInfo} class="contact-info">
+							<p><strong>Contact:</strong> {item.ContactName}</p>
+							<p><strong>Email:</strong> {item.ContactEmail}</p>
+							<p><strong>Phone:</strong> {item.ContactPhone}</p>
+						</div>
+				</li>
+			</template>
+		</ul>
+		<!-- OTP Verification Modal -->
+		<div if:true={showOTPModal} class="otp-modal">
+			<div class="otp-container">
+				<h3>Enter OTP to Change Status</h3>
+				<input type="text" placeholder="OTP" value={otp} onchange={handleOTPChange} />
+				<button class="confirm-button" onclick={confirmDeletion}>Confirm</button>
+				<button class="cancel-button" onclick={cancelDeletion}>Cancel</button>
+			</div>
+		</div>
+		<!--    class="slds-notify slds-notify_toast slds-theme_error"   --->
+	</div>
+
+</template>

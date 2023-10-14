@@ -1,0 +1,291 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2a154;
+    color: #ffffff;
+}
+
+/* Header Styles */
+.header {
+    background-color: #293241;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+.header-nav {
+    margin-right: 20px;
+}
+
+.header-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+/* Hero Section Styles */
+.tracking-hero {
+    background-color: #f2a154; /* Background color for the hero section */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 70%;
+}
+
+.hero-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    font-size: 18px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Tracking Form Styles */
+.tracking-form {
+    
+    text-align: center;
+    margin-top: 40px;
+}
+
+.form-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.track-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tracking-input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #293241;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.track-button {
+    background-color: #293241;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.track-button:hover {
+    background-color: #f2a154;
+    color: #ffffff;
+}
+
+/* Tracking Result Styles */
+.tracking-result {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.result-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.result-content {
+    font-weight: bold;
+    color:red;
+    font-size: 18px;
+}
+
+/* orderTracker.css */
+.order-tracker {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+.order-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.order-item {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    width: 200px;
+}
+
+.order-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.order-item h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.order-item p {
+    margin: 0.5rem 0;
+}
+.order-detail {
+    border: 1px solid #e5e5e5;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin: auto;
+    width: max-content;
+    color: #333;
+    font-size: 1rem;
+    text-align: center;
+    background-color: white;
+}
+
+.order-detail.show {
+    animation: fade-in 0.5s ease-in-out;
+}
+
+.order-detail h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.order-detail p {
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+.order-detail .products-ordered {
+    margin-top: 1rem;
+}
+
+.order-detail .products-ordered h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.order-detail .products-ordered ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.order-detail .products-ordered li {
+    margin-left: 1rem;
+    font-size: 1rem;
+    color: #555;
+    font-style: italic;
+}
+
+.close-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.status {
+    font-size: 16px;
+    color: #3498db; /* Emphasize status with a different color */
+    text-transform: uppercase; /* Convert status text to uppercase */
+    letter-spacing: 1px; /* Add letter-spacing for readability */
+    font-weight: bold; /* Make the status text bold */
+}
+
+.close-button:hover {
+    background-color: #c0392b;
+}
+
+/* Animation */
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.products-ordered {
+    margin-top: 1rem;
+}
+
+.products-ordered h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.products-ordered ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.products-ordered li {
+    margin-left: 1rem;
+    font-size: 1rem;
+    color: #555;
+    font-style: italic;
+}
+
+.close-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    background-color: #c0392b;
+}

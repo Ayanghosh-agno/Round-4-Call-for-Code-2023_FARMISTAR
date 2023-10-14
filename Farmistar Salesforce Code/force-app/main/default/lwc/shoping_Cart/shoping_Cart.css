@@ -1,0 +1,130 @@
+/* cartComponent.css */
+
+
+
+.add-to-cart-button {
+    background-color: #46723e;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.add-to-cart-button:hover {
+    background-color: #2ca132;
+}
+.quantity-button {
+    background-color: #f2a154;
+    color: #fff;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity-button:hover {
+    background-color: #ff884d;
+}
+
+
+/* Close button for the modal */
+.close {
+	position:absolute;
+	left:70%;
+	font-size: 24px;
+	cursor: pointer;
+    
+    
+}
+
+.hide{
+	display: none;
+}
+
+/* Cart button container */
+/* .cart-button-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+} */
+
+/* Cart button */
+.cart-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20%; /* Make it a circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    left: 4%;
+    bottom: 4%;
+    position: fixed;
+    background-color: #3c664a;
+    transition: background-color 0.3s ease;
+    --sds-c-icon-color-foreground-default: white;
+
+}
+.cart-button:hover {
+    background-color: #4c8d62;
+}
+
+/* Cart icon */
+.cart-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Cart quantity indicator */
+.cart-quantity {
+    /* position: absolute; */
+	position:relative;
+	bottom:30px;
+	left:-20px;
+    /* top: -20px;
+    right: 14px; */
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 3px 6px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+.custom-button {
+    background-color: #453ae2; /* Button background color */
+    color: #fff; /* Button text color */
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.order-tracking {
+    text-align: center;
+    margin: 20px;
+}
+
+.order-id {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.message {
+    font-size: 16px;
+    color: #666;
+}
+.confirmation-message {
+    font-size: 12px;
+    color: rgb(161, 93, 93);
+}

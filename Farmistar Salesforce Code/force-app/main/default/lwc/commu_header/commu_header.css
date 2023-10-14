@@ -1,0 +1,118 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+/* Header Styles */
+.header {
+    background-color: #293241;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; /* Add position relative to the header */
+}
+
+/* Logo Styles */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 24px;
+}
+
+/* Navigation Links Styles */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f2a154;
+}
+
+/* Language Selection Styles */
+.language-selection {
+    position: absolute; /* Position the language selection relative to the header */
+    bottom: 0px; /* Adjust the bottom spacing as needed */
+    right: 20px; /* Adjust the right spacing as needed */
+    display: flex;
+    align-items: center;
+}
+
+.language-selection label {
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.language-selection select {
+    background-color: #aa341f;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+/* Mobile styles */
+@media (max-width: 768px) {
+
+.language-selection select {
+    background-color: #aa341f;
+    color: #ffffff;
+    padding: 2px 4px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.language-selection {
+    position: absolute; /* Position the language selection relative to the header */
+    bottom: 0px; /* Adjust the bottom spacing as needed */
+    right: 20px; /* Adjust the right spacing as needed */
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.logo-container {
+    display: none;
+    align-items: center;
+}
+
+.header {
+    background-color: #293241;
+    color: #ffffff;
+    padding: 20px 0;
+}
+.nav-links li {
+    margin-right: 10px;
+}
+.nav-links{
+    font-size: 12px;
+}
+}

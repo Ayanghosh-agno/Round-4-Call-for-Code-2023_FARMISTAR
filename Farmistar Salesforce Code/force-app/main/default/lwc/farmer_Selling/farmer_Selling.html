@@ -1,0 +1,82 @@
+<!-- cropInputForm.html -->
+<template>
+	<template if:true={isSpinner}>
+		<lightning-spinner style="margin-top: 100px;margin-bottom: 90px;background-color:rgba(255,255,255,.75)" alternative-text="Loading" variant="brand"
+			size="medium">
+		</lightning-spinner>
+	</template>
+	<div class="container">
+		<h1>Submit Your Crop</h1>
+		<form class="crop-form">
+			<div class="form-group">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required />
+            </div>
+				<div class="form-group">
+					<label for="cropType">Crop Type:</label>
+					<input type="text" id="cropType" name="cropType" required />
+            </div>
+					<div class="form-group">
+						<label for="quantity">Quantity (in Qntl):</label>
+						<input type="number" id="quantity" name="quantity" required />
+            </div>
+						<div class="form-group">
+							<label for="price">Price (per Qntl):</label>
+							<input type="number" id="price" name="price" required />
+            </div>
+							<div class="form-group">
+								<label for="phone">Phone:</label>
+								<input type="text" id="phone" name="phone" required />
+            </div>
+								<div class="form-group">
+									<label for="email">Email Id:</label>
+									<input type="text" id="email" name="email" required />
+            </div>
+									<div class="form-group">
+										<label for="contact">Address/Other Information:</label>
+										<textarea id="contact" name="contact" rows="4" required></textarea>
+									</div>
+									<button type="submit" class="submit-button" onclick={submitCrop}>Submit</button>
+		</form>
+	</div>
+
+	<!-- Modal for displaying cart content -->
+	<template if:true={modalClass}>
+		<!-- Modal/Popup Box LWC starts here -->
+		<section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+			aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+			<div class="slds-modal__container">
+				<!-- Modal/Popup Box LWC header here -->
+				<header style="background:white" class="slds-modal__header">
+					<button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick={closeCartModal}>
+                                                                                <lightning-icon icon-name="utility:close" alternative-text="close" variant="inverse" size="small" onclick={closeModal} ></lightning-icon>
+                                                                                <span class="slds-assistive-text">Close</span>
+                                                                            </button>
+					<!-- <h2 class="slds-text-heading_medium slds-hyphenate">Path Decision</h2> -->
+				</header>
+				<!-- Modal/Popup Box LWC body starts here -->
+				<div style="background:white" class="slds-modal__content slds-p-around_medium">
+
+					<div style="overflow:auto">
+						<div class="order-tracking">
+							<h2 class="order-id">Order Tracking ID:</h2>
+							<h2 class="order-id">{orderTrackingId}</h2>
+							<br>
+							<p class="message">Thank You For Your Request</p>
+							<p class="message">We will get back to you soon</p>
+							<p class="message">Please save tracking ID for future reference or tracking.</p>
+							<p class="confirmation-message">You will receive email and SMS confirmation.</p>
+						</div>
+					</div>
+
+
+				</div>
+				<!-- Modal/Popup Box LWC footer starts here -->
+				<footer style="background:white" class="slds-modal__footer">
+					<button class="slds-button slds-button_brand" onclick={closeCartModal} title="OK">Ok</button>
+				</footer>
+			</div>
+		</section>
+		<div class="slds-backdrop slds-backdrop_open"></div>
+	</template>
+</template>

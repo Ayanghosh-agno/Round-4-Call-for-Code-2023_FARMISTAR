@@ -1,0 +1,266 @@
+<!-- ecommerceProductList.html -->
+<template>
+	<h2 class="slds-align_absolute-center" style="font-size: 24px;margin-bottom: 2px;color: #333;">Product List</h2>
+
+	<lightning-card title="Fertilizer Section">
+		<div class="slds-grid slds-gutters">
+			<!-- Shopping Cart Icon and Cart Items -->
+			<!-- Product List -->
+			<div class="slds-col">
+				<ul class="slds-list_horizontal slds-wrap">
+					<template for:each={processedProducts} for:item="product">
+						<template lwc:if={product.fertilizer}>
+							<li key={product.id}
+								class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-2"
+								style="padding-bottom:10px">
+								<div class="slds-box slds-box_small" style="background:white">
+									<div class="slds-media">
+										<div class="slds-media__figure">
+											<img src={product.imageUrl} style="width:150px;height:100px" alt={product.name} />
+                						</div>
+											<div class="slds-media__body">
+												<h2 class="slds-text-heading_small">{product.name}</h2>
+												<p class="slds-text-color_weak">{product.description}</p>
+												<p class="slds-text-heading_medium">Rs {product.price}</p>
+												<template if:true={product.inCart}>
+													<div>
+														<button class="quantity-button" onclick={handleRemoveFromCart} data-id={product.id}>-</button>
+														{product.quantityInCart}
+														<button class="quantity-button" onclick={handleAddToCart} data-id={product.id}>+</button>
+													</div>
+												</template>
+												<template if:false={product.inCart}>
+													<button class="add-to-cart-button" onclick={handleAddToCart} data-id={product.id}>Add to Cart</button>
+												</template>
+											</div>
+										</div>
+									</div>
+							</li>
+						</template>
+					</template>
+				</ul>
+			</div>
+		</div>
+	</lightning-card>
+	<br>
+
+	<lightning-card title="Pestisides Section">
+		<div class="slds-grid slds-gutters">
+			<!-- Shopping Cart Icon and Cart Items -->
+			<!-- Product List -->
+			<div class="slds-col">
+				<ul class="slds-list_horizontal slds-wrap">
+					<template for:each={processedProducts} for:item="product">
+						<template lwc:if={product.pesticides}>
+							<li key={product.id}
+								class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-2"
+								style="padding-bottom:10px">
+								<div class="slds-box slds-box_small" style="background:white">
+									<div class="slds-media">
+										<div class="slds-media__figure">
+											<img src={product.imageUrl} style="width:150px;height:100px" alt={product.name} />
+                						</div>
+											<div class="slds-media__body">
+												<h2 class="slds-text-heading_small">{product.name}</h2>
+												<p class="slds-text-color_weak">{product.description}</p>
+												<p class="slds-text-heading_medium">Rs {product.price}</p>
+												<template if:true={product.inCart}>
+													<div>
+														<button class="quantity-button" onclick={handleRemoveFromCart} data-id={product.id}>-</button>
+														{product.quantityInCart}
+														<button class="quantity-button" onclick={handleAddToCart} data-id={product.id}>+</button>
+													</div>
+												</template>
+												<template if:false={product.inCart}>
+													<button class="add-to-cart-button" onclick={handleAddToCart} data-id={product.id}>Add to Cart</button>
+												</template>
+											</div>
+										</div>
+									</div>
+							</li>
+						</template>
+					</template>
+				</ul>
+			</div>
+		</div>
+	</lightning-card>
+	<br>
+
+	<lightning-card title="Seeds Section">
+		<div class="slds-grid slds-gutters">
+			<!-- Shopping Cart Icon and Cart Items -->
+			<!-- Product List -->
+			<div class="slds-col">
+				<ul class="slds-list_horizontal slds-wrap">
+					<template for:each={processedProducts} for:item="product">
+						<template lwc:if={product.seeds}>
+							<li key={product.id}
+								class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-2"
+								style="padding-bottom:10px">
+								<div class="slds-box slds-box_small" style="background:white">
+									<div class="slds-media">
+										<div class="slds-media__figure">
+											<img src={product.imageUrl} style="width:150px;height:100px" alt={product.name} />
+                						</div>
+											<div class="slds-media__body">
+												<h2 class="slds-text-heading_small">{product.name}</h2>
+												<p class="slds-text-color_weak">{product.description}</p>
+												<p class="slds-text-heading_medium">Rs {product.price}</p>
+												<template if:true={product.inCart}>
+													<div>
+														<button class="quantity-button" onclick={handleRemoveFromCart} data-id={product.id}>-</button>
+														{product.quantityInCart}
+														<button class="quantity-button" onclick={handleAddToCart} data-id={product.id}>+</button>
+													</div>
+												</template>
+												<template if:false={product.inCart}>
+													<button class="add-to-cart-button" onclick={handleAddToCart} data-id={product.id}>Add to Cart</button>
+												</template>
+											</div>
+										</div>
+									</div>
+							</li>
+						</template>
+					</template>
+				</ul>
+			</div>
+		</div>
+	</lightning-card>
+	<br>
+	<lightning-card title="Equipments Section">
+		<div class="slds-grid slds-gutters">
+			<!-- Shopping Cart Icon and Cart Items -->
+			<!-- Product List -->
+			<div class="slds-col">
+				<ul class="slds-list_horizontal slds-wrap">
+					<template for:each={processedProducts} for:item="product">
+						<template lwc:if={product.equipments}>
+							<li key={product.id}
+								class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-2"
+								style="padding-bottom:10px">
+								<div class="slds-box slds-box_small" style="background:white">
+									<div class="slds-media">
+										<div class="slds-media__figure">
+											<img src={product.imageUrl} style="width:150px;height:100px" alt={product.name} />
+                						</div>
+											<div class="slds-media__body">
+												<h2 class="slds-text-heading_small">{product.name}</h2>
+												<p class="slds-text-color_weak">{product.description}</p>
+												<p class="slds-text-heading_medium">Rs {product.price}</p>
+												<template if:true={product.inCart}>
+													<div>
+														<button class="quantity-button" onclick={handleRemoveFromCart} data-id={product.id}>-</button>
+														{product.quantityInCart}
+														<button class="quantity-button" onclick={handleAddToCart} data-id={product.id}>+</button>
+													</div>
+												</template>
+												<template if:false={product.inCart}>
+													<button class="add-to-cart-button" onclick={handleAddToCart} data-id={product.id}>Add to Cart</button>
+												</template>
+											</div>
+										</div>
+									</div>
+							</li>
+						</template>
+					</template>
+				</ul>
+			</div>
+		</div>
+	</lightning-card>
+
+
+	<div class="cart-button-container">
+		<button onclick={openCartModal} class="cart-button">
+            <lightning-icon icon-name="utility:cart" style="position:relative;left:8px" alternative-text="Cart" title="Cart" class="cart-icon"></lightning-icon>
+            <span class="cart-quantity">{totalItemsInCart}</span>
+        </button>
+		<!-- Modal for displaying cart content -->
+		<template if:true={modalClass}>
+			<!-- Modal/Popup Box LWC starts here -->
+			<section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+				aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+				<div class="slds-modal__container">
+					<!-- Modal/Popup Box LWC header here -->
+					<header style="background:white"  class="slds-modal__header">
+						<button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick={closeCartModal}>
+                                                                                <lightning-icon icon-name="utility:close" alternative-text="close" variant="inverse" size="small" onclick={closeModal} ></lightning-icon>
+                                                                                <span class="slds-assistive-text">Close</span>
+                                                                            </button>
+						<!-- <h2 class="slds-text-heading_medium slds-hyphenate">Path Decision</h2> -->
+						<div lwc:if={page1}>
+							<lightning-icon class="slds-align_absolute-center slds-size_1-of-5"
+								icon-name="standard:webcart" size="large"></lightning-icon>
+							<h2 class="slds-align_absolute-center slds-text-heading_medium slds-hyphenate">Shopping Cart
+							</h2>
+						</div>
+						<div lwc:if={page2}>
+							<h2 class="slds-text-heading_medium slds-hyphenate">Shipping Details</h2>
+						</div>
+					</header>
+					<!-- Modal/Popup Box LWC body starts here -->
+					<div style="background:white"  class="slds-modal__content slds-p-around_medium">
+
+						<div lwc:if={page1} style="overflow:auto">
+							<br>
+							<template if:false={cartitem_s}>
+								<ul class="slds-list_vertical">
+									<template for:each={cartItems} for:item="item">
+
+										<li key={item.product.id}>
+											{item.product.name}
+											<span style="padding-left:5px">X ({item.quantity})</span>
+										</li>
+									</template>
+								</ul>
+								<br>
+								<div class="slds-box">
+									<p class="slds-align_absolute-center">Total Items in Cart: {totalItemsInCart}</p>
+									<p class="slds-align_absolute-center">Total Price: Rs. {totalPrice}</p>
+									<button class="slds-align_absolute-center custom-button" onclick={checkout}>Check Out</button>
+								</div>
+							</template>
+							<template if:true={cartitem_s}>
+								<br>
+								<p class="slds-align_absolute-center">Your cart is empty.</p>
+							</template>
+						</div>
+						<div lwc:if={page2} style="overflow:auto">
+							<c-commu_shipping_form cart-details={cartItems} onsuccess={success}></c-commu_shipping_form>
+						</div>
+						<div lwc:if={page3} style="overflow:auto">
+							<div class="order-tracking">
+								<h2 class="order-id">Order Tracking ID:</h2>
+								<h2 class="order-id">{orderTrackingId}</h2>
+
+								<br>
+								<p class="message">Please save it for future reference or tracking.</p>
+								<p class="confirmation-message">You will receive email and SMS confirmation.</p>
+
+							</div>
+						</div>
+
+
+					</div>
+					<!-- Modal/Popup Box LWC footer starts here -->
+					<footer style="background:white" class="slds-modal__footer">
+						<div lwc:if={page3}>
+							<button class="slds-button slds-button_brand" onclick={closeCartModal} title="OK">Ok</button>
+						</div>
+						<div lwc:if={page2}>
+							<button class="slds-button slds-button_neutral" onclick={closeCartModal} title="Cancel">Cancel</button>
+							<button class="slds-button slds-button_brand" onclick={submitDetails} title="Submit">Submit</button>
+						</div>
+
+					</footer>
+				</div>
+			</section>
+			<div class="slds-backdrop slds-backdrop_open"></div>
+		</template>
+
+
+
+
+	</div>
+
+
+</template>

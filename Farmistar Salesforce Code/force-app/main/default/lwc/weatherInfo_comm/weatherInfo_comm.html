@@ -1,0 +1,57 @@
+<!-- weatherInfo.html -->
+<template>
+	<lightning-card title={title} icon-name="utility:classic_interface">
+		<template if:true={isSpinner}>
+			<lightning-spinner style="background-color:rgba(255,255,255,.75)"
+				alternative-text="Loading" variant="brand" size="medium">
+			</lightning-spinner>
+		</template>
+		<div class="weather-info">
+			<div if:false={error} class="data">
+				<div class="data-item">
+					<!-- <img src={temperatureIcon} alt="Temperature" /> -->
+					<p><strong>Temperature:</strong> {temperature}&#8451;</p>
+				</div>
+				<div class="data-item">
+					<!-- <img src={temperatureMinIcon} alt="Minimum Temperature" /> -->
+					<p><strong>Min Temperature:</strong> {temperatureMin}&#8451;</p>
+				</div>
+				<div class="data-item">
+					<!-- <img src={temperatureMaxIcon} alt="Maximum Temperature" /> -->
+					<p><strong>Max Temperature:</strong> {temperatureMax}&#8451;</p>
+				</div>
+				<div class="data-item">
+					<!-- <img src={weatherTypeIcon} alt="Weather Type" /> -->
+					<p><strong>Weather Type:</strong> {weatherType}</p>
+				</div>
+				<div class="data-item">
+					<!-- <img src={pressureIcon} alt="Pressure" /> -->
+					<p><strong>Pressure:</strong> {pressure} hPa</p>
+				</div>
+				<div class="data-item">
+					<!-- <img src={feelsLikeIcon} alt="Feels Like" /> -->
+					<p><strong>Feels Like:</strong> {feelsLike}&#8451;</p>
+				</div>
+				<div class="data-item">
+					<!-- <img src={humidityIcon} alt="Humidity" /> -->
+					<p><strong>Humidity:</strong> {humidity}%</p>
+				</div>
+				<div class="data-item">
+					<!-- <img src={windSpeedIcon} alt="Wind Speed" /> -->
+					<p><strong>Wind Speed:</strong> {windSpeed} m/s</p>
+				</div>
+				<div class="data-item">
+					<!-- <img src={sunriseIcon} alt="Sunrise" /> -->
+					<p><strong>Sunrise:</strong> {sunriseTime}</p>
+				</div>
+				<div class="data-item">
+					<!-- <img src={sunsetIcon} alt="Sunset" /> -->
+					<p><strong>Sunset:</strong> {sunsetTime}</p>
+				</div>
+			</div>
+			<div if:true={error} class="error-info">
+				<p><strong>Error:</strong> {error}</p>
+			</div>
+		</div>
+	</lightning-card>
+</template>

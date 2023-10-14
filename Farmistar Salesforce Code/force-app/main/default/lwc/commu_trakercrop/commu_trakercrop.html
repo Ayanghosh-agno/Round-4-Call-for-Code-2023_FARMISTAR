@@ -1,0 +1,37 @@
+<template>
+	<div class="order-tracking-page">
+		<section class="tracking-form">
+			<h2 class="form-title">Enter Order or Inquiry ID</h2>
+			<div class="track-input">
+				<input type="text" placeholder="Enter ID" class="tracking-input" value={orderNumber} onchange={handleOrderNumberChange}>
+				<button class="track-button" onclick={handleTrackOrder}>Track</button>
+			</div>
+		</section>
+
+		<section class="tracking-result">
+			<h2 class="result-title">Tracking Result</h2>
+			
+		 <div if:false={isOrderSelected} class="result-content">
+				<p>{orderStatus}</p>
+			</div>
+		</section>
+		<div class="order-detail" if:true={isOrderSelected}>
+            <!-- <h2 class='slds-align_absolute-center'>Order Details</h2> -->
+		
+            <p><strong>Order Name:</strong> {selectedOrder.name}</p>
+            <p><strong>Order Date:</strong> {selectedOrder.orderDate}</p>
+            <p><strong>Total Amount:</strong> Rs. {selectedOrder.totalAmount}</p>
+            <p><strong>Farmer:</strong> {selectedOrder.farmerName}</p>
+			<!-- <p><strong>Product Ordered:</strong> {selectedOrder.farmerName}</p> -->
+            <p class="status"><strong>Status:</strong> {selectedOrder.status}</p>
+            <!-- <div class="products-ordered">
+                <h3>Products Ordered</h3>
+                <ul>
+                    <template for:each={selectedOrder.productsOrdered} for:item="product">
+                        <li key={product}>{product}</li>
+                    </template>
+                </ul>
+            </div> -->
+        </div>
+	</div>
+</template>

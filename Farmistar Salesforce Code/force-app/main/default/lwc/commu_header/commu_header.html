@@ -1,0 +1,32 @@
+<template>
+    <div class="farmister-homepage">
+        <header class="header">
+            <div class="logo-container">
+                <img src={farmisterLogoUrl} style="width:80px;height:80px" alt="Farmister Logo" class="logo">
+                <h1 class="logo-text">Farmistar</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/farmer-market">Marketplace</a></li>
+                <li><a href="/sell-your-crop">Crop Sales</a></li>
+                <li><a href="/track">Track Orders</a></li>
+                <li><a href="/contact-us">Contact Us</a></li>
+                <li><a href="/about-us">About Us</a></li> 
+            </ul>
+            <div class="language-selection">
+                <label for="language">Select Language:</label>
+                <select id="language" onchange={handleLanguageChange}>
+                    <template for:each={languageOptions} for:item="option">
+
+                        <option key={option.value} if:false={option.selected} value={option.value}>
+                            {option.label} 
+                        </option>
+                        <option key={option.value} if:true={option.selected} selected value={option.value}>
+                            {option.label} 
+                        </option>
+                    </template>
+                </select>
+            </div>
+        </header>
+    </div>
+</template>

@@ -1,0 +1,16 @@
+<template>
+		<template if:true={isSpinner}>
+			<lightning-spinner style="background-color:rgba(255,255,255,.75)" alternative-text="Loading" variant="brand"
+				size="medium">
+			</lightning-spinner>
+		</template>
+
+		<div class="slds-p-around_medium">
+			<div if:false={error} class={rainPredictionClass}>
+				<span class="rain-prediction-text">{rainPredictionMessage}</span>
+			</div>
+			<div if:true={error} class="error-info">
+				<p><strong>Error:</strong> {error}</p>
+			</div>
+		</div>
+</template>

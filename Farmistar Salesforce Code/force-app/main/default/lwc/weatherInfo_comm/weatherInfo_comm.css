@@ -1,0 +1,52 @@
+/* weatherInfo.css */
+.weather-info {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.data {
+    text-align: left;
+}
+
+.data-item {
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+.error-info {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff; /* White background color */
+    color: #333; /* Dark text color */
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* 3D box-shadow effect */
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.error-info p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.error-info strong {
+    font-weight: bold;
+    color: #ff3333; /* Red color for strong text */
+}

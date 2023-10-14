@@ -217,12 +217,47 @@ In future I am planning to enhance/upgrade FARMISTAR in the following way :-
 
 ### How to run the project <a name="run-the-project"></a>
 
-1. Set up Salesforce Environment
-2. Clone this git repository in local machine `git clone https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR`
-3. Deploy to Salesforce environment using CLI tools.
-4. Configure a Experience Cloud site and place the components as needed cloned from this repository.
-5. Ensure all security settings and permissions are given for logged in as well as guest users of experience cloud in Salesforce Side.
+Step 1: Cloning of the repository :
 
+Our first goal is to set up a developer project which we'll use to modify our application. It starts by cloning the repository. Use the command git clone 
+
+    https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR
+    
+to clone the repository. Then, open the directory.
+
+    cd Farmistar-Salesforce-Code
+    
+Step 2: Deploying using CLI tools (ex-VS Code) :
+
+Authorize to your Developer Hub (Dev Hub) org.
+
+    sfdx force:auth:web:login -d -a "FAMRISTAR"
+
+If you already have an authorized Dev Hub, set it as the default:
+
+    sfdx force:config:set defaultdevhubusername=<username|alias>
+
+Create a scratch org.
+
+    sfdx force:org:create -s -f config/project-scratch-def.json
+
+If you want to use an existing scratch org, set it as the default:
+
+    sfdx force:config:set defaultusername=<username|alias>
+
+Push your source.
+
+    sfdx force:source:push
+
+Open the scratch org.
+
+    sfdx force:org:open -u FARMISTAR
+
+4. Configure a Experience Cloud site and place the components as needed pushed into the org.
+
+6. Ensure all security settings and permissions are given for logged in as well as guest users of experience cloud in Salesforce Side.
+
+Note: If you want to learn more about SFDX and CLI command, Click [Here](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/README.md)
 
 ### Live Demo <a name="Live-Demo"></a>
 

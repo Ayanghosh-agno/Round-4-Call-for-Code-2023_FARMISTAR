@@ -114,12 +114,12 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
 
 -  Pointer to Code :-
 
-    -  [Farmister_Operation_Ctrl.cls](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/classes/Farmister_Operation_Ctrl.cls)- This apex class is responsible for fetching tracking details,Language selection check, creating order, submiting crop selling proposal,                 submiting any inquiry.
-    -  [Shoping_Cart]()-LWC to diaplay all the products, add to cart and further checkout process.
-    -  [Commu_shipping_form]()-LWC to capture shipping information of the farmer in order to ship the product they choosed to buy from FARMISTAR.
-    -  [Commu_cropprice]()- LWC to show the current crops price trends.
-    -  [Farmer_Selling]()-LWC to collect all the crop related details that the farmer want to sell.
-    -  [commu_contactus_form]()- LWC to collect information from farmer for their inquiry and send it to apex class to insert it as an internal Salesforce case.
+    -  [Farmister_Operation_Ctrl.cls](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/classes/Farmister_Operation_Ctrl.cls)- This apex class is responsible for fetching tracking details,Language selection check, creating order, submiting crop selling proposal, submiting any inquiry.
+    -  [Shoping_Cart](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/tree/main/Farmistar%20Salesforce%20Code/force-app/main/default/lwc/shoping_Cart)-LWC to diaplay all the products, add to cart and further checkout process.
+    -  [Commu_shipping_form](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/tree/main/Farmistar%20Salesforce%20Code/force-app/main/default/lwc/commu_shipping_form)-LWC to capture shipping information of the farmer in order to ship the product they choosed to buy from FARMISTAR.
+    -  [Commu_cropprice](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/tree/main/Farmistar%20Salesforce%20Code/force-app/main/default/lwc/commu_cropprice)- LWC to show the current crops price trends.
+    -  [Farmer_Selling](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/tree/main/Farmistar%20Salesforce%20Code/force-app/main/default/lwc/farmer_Selling)-LWC to collect all the crop related details that the farmer want to sell.
+    -  [commu_contactus_form](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/tree/main/Farmistar%20Salesforce%20Code/force-app/main/default/lwc/commu_contactus_form)- LWC to collect information from farmer for their inquiry and send it to apex class to insert it as an internal Salesforce case.
 
 
 
@@ -136,11 +136,11 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
     -  [WatsonMLPrediction_Crop_Yield.cls](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/classes/WatsonMLPrediction_Crop_Yield.cls)- This apex class is used to make the callout for the Crop Yield prediction using the data sent from LWC and authentication token from [IBMIdentityAuth.cls](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/classes/IBMIdentityAuth.cls) as a authorization key.
     -  [WatsonMLPrediction_Fertilizer_Recomm.cls](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/classes/WatsonMLPrediction_Fertilizer_Recomm.cls)-This apex class is used to make the callout for the Fertilizer prediction using the data sent from LWC and authentication tokenfrom [IBMIdentityAuth.cls](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/classes/IBMIdentityAuth.cls) as a authorization key.
     -  [WatsonMLPrediction_Rain.cls](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/classes/WatsonMLPrediction_Rain.cls)-This apex class is used to make the callout for the rain prediction using the data sent from OpenWeatherAPI.
-    -  [Commu_croprecommendation]()- LWC to capture the input of land details to display and predict Best Crop.
-    -  [Commu_fertilizerprediction]()-LWC to capture input of land details to display and predict Best Fertilizer.
-    -  [Commu_rainpredic]()-LWC to display the rain prediction based out of OpenWeatherAPI data.
-    -  [Commu_crop_yield]()-LWC to capture input of crop,year and other details to display and predict crop yield.
-    -  [WeatherInfo_comm]()-LWC to display the weather information of user's current location using OpenweatherAPI.
+    -  [Commu_croprecommendation](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/tree/main/Farmistar%20Salesforce%20Code/force-app/main/default/lwc/commu_croprecommendation)- LWC to capture the input of land details to display and predict Best Crop.
+    -  [Commu_fertilizerprediction](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/tree/main/Farmistar%20Salesforce%20Code/force-app/main/default/lwc/commu_fertilizerprediction)-LWC to capture input of land details to display and predict Best Fertilizer.
+    -  [Commu_rainpredic](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/tree/main/Farmistar%20Salesforce%20Code/force-app/main/default/lwc/commu_rainpredic)-LWC to display the rain prediction based out of OpenWeatherAPI data.
+    -  [Commu_crop_yield](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/tree/main/Farmistar%20Salesforce%20Code/force-app/main/default/lwc/commu_crop_yield)-LWC to capture input of crop,year and other details to display and predict crop yield.
+    -  [WeatherInfo_comm](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/tree/main/Farmistar%20Salesforce%20Code/force-app/main/default/lwc/weatherInfo_comm)-LWC to display the weather information of user's current location using OpenweatherAPI.
     
 
 ### Farmistar Bot<a name="farmistar-bot"></a>
@@ -150,14 +150,14 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
 <img src="https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Assets/Bot-Setup.png">
 
 -  Pointer to Code :-
-    -  [Watson.js]()- This is static resource is used in our LWC componet - [Footer LWC]() to render our Watson assistance into our experience cloud page.
+    -  [Watson.js](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/staticresources/watson.js)- This is static resource is used in our LWC componet - [Footer LWC](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/tree/main/Farmistar%20Salesforce%20Code/force-app/main/default/lwc/commu_footer) to render our Watson assistance into our experience cloud page.
 
 #### Farmistar Bot - Live Agent<a name="live-agent"></a>
 
 <img src="https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Assets/Chatbot-Liveagent.png">
 
 -  Pointer to Code :-
-    -  [newwatsonassistance.page]()- This VF page has been created to display the past conversation from the FARMISTAR BOT so that our Live Agents can get context of exactly what the farmer is looking for.
+    -  [newwatsonassistance.page](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/pages/newwatsonassistance.page)- This VF page has been created to display the past conversation from the FARMISTAR BOT so that our Live Agents can get context of exactly what the farmer is looking for.
 
 
 ### Acknowledgments, Tracking & Translator<a name="acknowledgment-trackings"></a>
@@ -168,8 +168,8 @@ Here's a detailed look at how FARMISTAR tackles these challenges:
     -  [Send_sms_mail.cls](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/classes/Send_sms_mail.cls)- This apex class is used to trigger SMS & Email confirmation for any Orders, Crop Selling proposal & Inquiry.
     -  [Farmister_Operation_Ctrl.cls](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/classes/Farmister_Operation_Ctrl.cls)- This apex class is responsible for fetching tracking details,Language selection check, creating order, submiting crop selling proposal,submiting any inquiry
     -  [IBMTranslator.cls](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/blob/main/Farmistar%20Salesforce%20Code/force-app/main/default/classes/IBMTranslator.cls)-This apex class is used to do call out to Watson Language Translator and receive the translated language from Watson Language translator.
-    -  [Commu_trakercrop]()-LWC to take the orderid as input and display the related order details.
-    -  [Commu_header]()-LWC to display the navigation blocks as well as the language selection options.
+    -  [Commu_trakercrop](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/tree/main/Farmistar%20Salesforce%20Code/force-app/main/default/lwc/commu_trakercrop)-LWC to take the orderid as input and display the related order details.
+    -  [Commu_header](https://github.com/Ayanghosh-agno/Round-4-Call-for-Code-2023_FARMISTAR/tree/main/Farmistar%20Salesforce%20Code/force-app/main/default/lwc/commu_header)-LWC to display the navigation blocks as well as the language selection options.
 
 ### Salesforce Internal Insights<a name="salesforce-insights"></a>
 
